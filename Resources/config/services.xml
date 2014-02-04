@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="wjzijderveld.related_content.twig.related_content_extension.class">Wjzijderveld\Sculpin\RelatedContentBundle\Twig\Extension\RelatedContent</parameter>
+    </parameters>
+
+    <services>
+        <service id="wjzijderveld.related_content.related.manager" class="Wjzijderveld\Sculpin\RelatedContentBundle\Manager">
+            <argument type="service" id="sculpin.data_provider_manager" />
+        </service>
+
+        <!-- Event Listener -->
+        <service id="wjzijderveld.related_content.event.page_data" class="Wjzijderveld\Sculpin\RelatedContentBundle\EventListener\PageData">
+            <argument type="service" id="wjzijderveld.related_content.related.manager" />
+            <tag name="kernel.event_listener" event="sculpin.core.before_format" />
+        </service>
+    </services>
+</container>

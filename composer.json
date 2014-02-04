@@ -1,0 +1,28 @@
+{
+    "name": "wjzijderveld/sculpin-related-content-bundle",
+    "type": "symfony-bundle",
+    "keywords": ["sculpin", "related", "content", "static", "bundle"],
+    "description": "Sculpin Bundle to generate related content data",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willem-Jan Zijderveld",
+            "email": "wjzijderveld@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/config": "~2.1",
+        "symfony/dependency-injection": "~2.1",
+        "symfony/http-kernel": "~2.1",
+        "sculpin/taxonomy-contrib": "self.version",
+        "sculpin/proxy-source-collection-contrib": "self.version",
+        "sculpin/core": "self.version"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wjzijderveld\\Sculpin\\RelatedContentBundle": ""
+        }
+    },
+    "target-dir": "Wjzijderveld/Sculpin/RelatedContentBundle"
+}

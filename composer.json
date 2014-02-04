@@ -24,5 +24,11 @@
             "Wjzijderveld\\Sculpin\\RelatedContentBundle": ""
         }
     },
-    "target-dir": "Wjzijderveld/Sculpin/RelatedContentBundle"
+    "target-dir": "Wjzijderveld/Sculpin/RelatedContentBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "beta"
 }

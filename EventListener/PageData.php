@@ -30,6 +30,6 @@ class PageData
             $relatedContent = $this->relatedContentManager->getRelatedContent($pageData['related']);
         }
 
-        $event->formatContext()->data()->set('relatedContent', $relatedContent);
+        $event->formatContext()->data()->set('related_content', $relatedContent);
     }
 } 

@@ -34,11 +34,11 @@ to relate this content to:
     ---
 
 
-When you have done this, you can now use the `relatedContent` variable in your
+When you have done this, you can now use the `related_content` variable in your
 templates (in this example Twig):
 
 
-    {% if relatedContent|length %}
+    {% if related_content|length %}
         <div class="related">
             {% for item in relatedContent %}
                 <a href="{{ item.url }}">{{ item.title }}</a>

@@ -40,7 +40,7 @@ templates (in this example Twig):
 
     {% if related_content|length %}
         <div class="related">
-            {% for item in relatedContent %}
+            {% for item in related_content %}
                 <a href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
         </div>

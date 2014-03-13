@@ -4,4 +4,4 @@ php:
   - 5.4
   - hhvm
 install:
-  - composer install --dev --prefer-dist
+  - composer install --dev --prefer-source

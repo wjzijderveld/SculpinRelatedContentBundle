@@ -6,4 +6,9 @@ php:
 install:
   - composer install --dev --prefer-source
 notifications:
-  irc: "chat.freenode.org#wjzijderveld"
+  irc: 
+    channels:
+      - "chat.freenode.org#wjzijderveld"
+    on_success: change
+    on_failure: change
+

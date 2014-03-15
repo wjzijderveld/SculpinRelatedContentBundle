@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e96bf91ac5dd621a4fec2e107ab01054",
+    "hash": "518aa1c5c6879f4654d120446f4b5eeb",
     "packages": [
         {
             "name": "composer/composer",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "604a65cc31f3e5d8a2b96802135ac24434e87678"
+                "reference": "70a20ebcc19f1ea8ab0954a4fbdce208b30085e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/604a65cc31f3e5d8a2b96802135ac24434e87678",
-                "reference": "604a65cc31f3e5d8a2b96802135ac24434e87678",
+                "url": "https://api.github.com/repos/composer/composer/zipball/70a20ebcc19f1ea8ab0954a4fbdce208b30085e7",
+                "reference": "70a20ebcc19f1ea8ab0954a4fbdce208b30085e7",
                 "shasum": ""
             },
             "require": {
@@ -72,7 +72,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2014-03-06 09:26:16"
+            "time": "2014-03-12 16:07:58"
         },
         {
             "name": "dflydev/ant-path-matcher",
@@ -1896,12 +1896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "0ae3bf5ff90edbe6e30e645221646479c2f1ef54"
+                "reference": "9f34844416dc60a16e3aef6bececcb5a6d9713a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/0ae3bf5ff90edbe6e30e645221646479c2f1ef54",
-                "reference": "0ae3bf5ff90edbe6e30e645221646479c2f1ef54",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/9f34844416dc60a16e3aef6bececcb5a6d9713a5",
+                "reference": "9f34844416dc60a16e3aef6bececcb5a6d9713a5",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1936,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-24 16:21:51"
+            "time": "2014-03-14 18:46:29"
         },
         {
             "name": "symfony/yaml",
@@ -2042,12 +2042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8c5844a56fe5cbe13ef3becd9ed9f7b3ade104a2"
+                "reference": "dab8d90755a7c1a54cd20be5098f5b5bf3346d9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8c5844a56fe5cbe13ef3becd9ed9f7b3ade104a2",
-                "reference": "8c5844a56fe5cbe13ef3becd9ed9f7b3ade104a2",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/dab8d90755a7c1a54cd20be5098f5b5bf3346d9b",
+                "reference": "dab8d90755a7c1a54cd20be5098f5b5bf3346d9b",
                 "shasum": ""
             },
             "require": {
@@ -2091,7 +2091,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-02-24 15:39:56"
+            "time": "2014-03-15 10:50:05"
         },
         {
             "name": "webignition/internet-media-type",
@@ -2229,11 +2229,11 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "sculpin/sculpin": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": {
-        "php": ">=5.3.2"
+        "php": ">=5.4.0"
     },
     "platform-dev": [
 

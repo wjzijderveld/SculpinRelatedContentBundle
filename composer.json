@@ -11,11 +11,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3.2",
+        "php": ">=5.4.0",
         "symfony/config": "~2.1",
         "symfony/dependency-injection": "~2.1",
         "symfony/http-kernel": "~2.1",
-        "sculpin/sculpin": "2.0.x-dev"
+        "sculpin/sculpin": "~2.0"
     },
     "autoload": {
         "psr-0": {

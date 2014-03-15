@@ -5,3 +5,5 @@ php:
   - hhvm
 install:
   - composer install --dev --prefer-source
+notifications:
+  irc: "chat.freenode.org#wjzijderveld"

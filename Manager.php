@@ -45,7 +45,6 @@ class Manager
             $this->mergeSourceCollections($sourceCollection, $newSourceCollection);
         }
 
-        $sourceCollection->init();
         return $sourceCollection;
     }
 

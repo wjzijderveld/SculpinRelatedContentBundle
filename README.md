@@ -6,7 +6,7 @@ This Bundle is written to work with [Sculpin](http://sculpin.io).
 
 #### Composer
 
-    $ composer require wjzijderveld/sculpin-related-content-bundle 1.0.x-dev
+    $ composer require wjzijderveld/sculpin-related-content-bundle ~1.0
 
 ## Usage
 
